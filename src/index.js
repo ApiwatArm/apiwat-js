@@ -1,7 +1,5 @@
-//import { add, multiply } from "./calculation";
-//console.log(add(2, 2));
-//console.log(multiply(2, 7));
-
-import * as cal from "./calculation";
-console.log(cal.add(2, 2));
-console.log(cal.multiply(2, 3));
+const user = "A-Host";
+const message1 = "Hello, " + user;
+const message2 = `Hello, ${user} ARM`;
+console.log(message1);
+console.log(message2);
